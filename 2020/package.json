@@ -1,0 +1,27 @@
+{
+  "name": "oisinq-advent-2020",
+  "version": "1.0.0",
+  "description": "Don't think I'll get too far but let's see how far I get...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oisinq/Advent-of-Code-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oisinq/Advent-of-Code-2020/issues"
+  },
+  "homepage": "https://github.com/oisinq/Advent-of-Code-2020#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.10"
+  },
+  "dependencies": {
+    "@types/mathjs": "^6.0.8",
+    "bignum": "^0.13.1",
+    "mathjs": "^8.1.0"
+  }
+}
