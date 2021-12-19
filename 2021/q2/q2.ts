@@ -35,7 +35,7 @@ const part1 = () => {
     }
   }
 
-  printResult({ part: 1, answer: depth * horizontalPostion });
+  printResult(depth * horizontalPostion);
 };
 
 const part2 = () => {
@@ -58,7 +58,7 @@ const part2 = () => {
     }
   }
 
-  printResult({ part: 2, answer: depth * horizontalPostion });
+  printResult(depth * horizontalPostion);
 };
 
 part1();

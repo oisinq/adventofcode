@@ -15,7 +15,7 @@ const part1 = () => {
     if (depths[index] > depths[index - 1]) answer++;
   }
 
-  printResult({ part: 1, answer });
+  printResult(answer);
 };
 
 const part2 = () => {
@@ -32,7 +32,7 @@ const part2 = () => {
     previousSum = currentSum;
   }
 
-  printResult({ part: 2, answer });
+  printResult(answer);
 };
 
 part1();

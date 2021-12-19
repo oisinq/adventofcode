@@ -30,7 +30,7 @@ const part1 = () => {
   const gamma = parseInt(gammaInBinary, 2);
   const epsilon = parseInt(epsilonInBinary, 2);
 
-  printResult({ part: 1, answer: gamma * epsilon });
+  printResult(gamma * epsilon);
 };
 
 const calculateOxygenRating = () => {
@@ -75,7 +75,7 @@ const part2 = () => {
   const oxygenRating = calculateOxygenRating();
   const CO2Rating = calculateCO2Rating();
 
-  printResult({ part: 2, answer: oxygenRating * CO2Rating });
+  printResult(oxygenRating * CO2Rating);
 };
 
 part1();
