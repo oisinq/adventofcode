@@ -6,3 +6,4 @@ Languages:
 - **2017:** Java
 - **2018:** Ruby
 - **2020:** JavaScript/TypeScript 
+- **2021:** TypeScript
