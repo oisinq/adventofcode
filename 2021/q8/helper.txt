@@ -17,11 +17,14 @@ b    .  b    .  .    c  b    c  b    c
  gggg    gggg    ....    gggg    gggg
 
 
-
-
 (2): 1
 (3): 7
 (4): 4
 (5): 2, 3, 5
 (6): 0, 6, 9
 (7): 8
+
+{ '0': 'cafgde', '1': 'ea', '3': 'fgeba', '4': 'aecb', '5': 'cegbf', '6': 'egcbfd', '7': 'gea', '8': 'begfdca' , '9': 'agfcbe' }
+
+get 1, 4, 7, 8 -> get 3 -> get 6 -> get 9 (cos 4 is subset of 9) -> get 0 -> get 5 (cos 5 is subset of 6)
+left: 2, 5
