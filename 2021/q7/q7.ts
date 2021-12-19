@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import { median as calculateMedian } from "mathjs";
 import * as path from "path";
 import { printResult } from "../print";
 
